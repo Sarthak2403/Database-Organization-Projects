@@ -1,18 +1,10 @@
-## CS 525 ADO Assignment - 1 - Storage Manager - Group 36
-
-Team Members and their Contribution:
-
-Bhavana  Polakala - A20539792, bpolakala@hawk.iit.edu, 33.33 %
-
-Sarthak Sonpatki -  A20579456, ssonpatki@hawk.iit.edu, 33.33 %	
-
-Vishwas Ramakrishna - A20552892, vramakrishna@hawk.iit.edu, 33.33 %		
+## Storage Manager 
 
 # Storage Manager:-
 
 This assignment uses file manipulation techniques to read, write and retrieve data/pages. The pages are stored in the disk in memory and required to be pulled through to perform above mentioned operations.
 
-# Folder Contents:-:
+# Folder Contents:-
 
  dberror.h: RC code errors with their definitions are mentioned in this file.
 
@@ -82,20 +74,18 @@ The goal of this strategy is to produce more pages. Here, the file is sought to 
 This technique adds empty blocks for the necessary additional number of pages after determining whether there is enough space to hold the given number of pages.
 
 ### Procedures for Implementation:
-Process 1:
 
-1) Navigate to the "our project" directory in Visual Studio Code by opening a new terminal and typing "cd filename."
-2) We make use of WSL (Ubuntu) to execute the program.
-3) Press Enter after typing "gcc -o test_assign1 storage_mgr.c dberror.c test_assign1_1.c". A test_assign1 executable file will result from this.
-4)To launch the file that's executable and test the program, type "./test_assig1".
-5) After testing, use "clear" to eliminate all unwanted files.
-6) Enter "valgrind --leak-check=full./test_assign1" and hit Enter to check for memory leaks. 
-7) Use the command rm test_assign1 to delete the executable file.
-
-Process 2:
-1) A makefile has been made in order to run our program.
-2) Type "make" in the newly opened terminal to produce the executable file test_assign1.
-3)Next, in order to validate our program, we must run the file using the make run command.
-4) Then, to remove all executable files and rerun, we may utilize "make clean" in a Linux environment and "make clean" in a Windows environment. 
-5) Enter "valgrind --leak-check=full./test_assign1" and hit Enter to check for memory leaks.
-
+1) Navigate to the project folder.
+2) Open the terminal in the project folder / VS code or any other IDE.
+3) Run the below command to clear any pre-existin executable run files
+```
+make clean
+```
+4) Then run the below code to create fresh executable files
+```
+make
+```
+5) To test the program run the below command in your terminal
+```
+./test_assign1_1   
+```
