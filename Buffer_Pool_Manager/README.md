@@ -1,13 +1,3 @@
-## CS 525 ADO Assignment - 2 - Buffer Pool Manager - Group 36
-
-Team Members and their Contribution:
-
-Bhavana  Polakala - A20539792, bpolakala@hawk.iit.edu, 33.33 %
-
-Sarthak Sonpatki -  A20579456, ssonpatki@hawk.iit.edu, 33.33 %	
-
-Vishwas Ramakrishna - A20552892, vramakrishna@hawk.iit.edu, 33.33 %		
-
 # Buffer Pool Manager:-
 
 Implementing a buffer manager that controls a set number of memory pages that correspond to pages from a page file that is maintained by the storage manager set up in assignment 1 is the aim of this assignment. Page frames, or simply frames, are the memory pages that the buffer manager is in charge of managing. A buffer pool is what we refer to as the collection of a page file and the page frames that store pages from that file. Multiple open buffer pools can be managed concurrently by the buffer manager. For every page file, there is only one buffer pool, though. One page replacement approach, chosen during buffer pool initialization, is used by each buffer pool. The two substitute approaches that are used are FIFO, LRU and CLOCK.
@@ -34,7 +24,7 @@ test_assign2_2.c: Similar to test_assign2_1 this file is used for testcases such
 
 Makefile: This file gets created on running ‘make’ command which is used to produce the binary test_assign1 from test_assign1_1.c.
 
-Readme.txt: Detailed description of the program is mentioned 
+README.md: Detailed description of the program is mentioned 
   
 ## Functions
 
