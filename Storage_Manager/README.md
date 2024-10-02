@@ -1,5 +1,3 @@
-## Storage Manager 
-
 # Storage Manager:-
 
 This assignment uses file manipulation techniques to read, write and retrieve data/pages. The pages are stored in the disk in memory and required to be pulled through to perform above mentioned operations.
