@@ -87,3 +87,6 @@ make
 ```
 ./test_assign1_1   
 ```
+## Outputs:-
+
+![Alt text](Outputs/SM_Output.png)
