@@ -12,12 +12,7 @@ char *RC_message;
 
 extern void initStorageManager()
 {
-    printf("\nADO CS525 - Group 36 \n ");
     printf("\n <-----Initializing Storage Manager----->\n ");
-	printf("TEAM DETAILS\n");
-	printf(" BHAVANA POLAKALA - A20539792 \n");
-    printf(" SARTHAK SONPATKI - A20579456 \n");
-	printf(" VISHWAS RAMAKRISHNA - A20552892 \n");
 }
 
 /* ............Page Files modifying............... */
