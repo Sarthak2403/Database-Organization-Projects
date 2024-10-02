@@ -99,3 +99,8 @@ make
 
 ./test2  
 ```
+## Outputs:-
+
+![Alt text](Outputs/BM_Test1_Output.png)
+
+![Alt text](Outputs/BM_Test2_Output.png)
