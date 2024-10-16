@@ -1,5 +1,3 @@
-## Record Manager 
-
 ## Record Manager:-
 
 The Record Manager is designed to manage tables with a fixed schema, offering core functionality like inserting, deleting, 
