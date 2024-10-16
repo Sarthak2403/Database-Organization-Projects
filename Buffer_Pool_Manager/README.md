@@ -73,7 +73,7 @@ README.md: Detailed description of the program is mentioned
 ### Procedures for Implementation:
 Process 1:
 
-11) Navigate to the project folder.
+1) Navigate to the project folder.
 2) Open the terminal in the project folder / VS code or any other IDE.
 3) Run the below command to clear any pre-existin executable run files
 ```
